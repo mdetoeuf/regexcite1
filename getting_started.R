@@ -76,3 +76,9 @@ str_split_one("a, b, c", pattern = ", ")
 # get it on github
 use_github() # if not working, then go to https://happygitwithr.com/existing-github-last.html
 
+usethis::create_from_github(
+  "git@github.com:mdetoeuf/regexcite1.git",
+  destdir = "~/path/to/where/you/want/the/local/repo/"
+)
+
+
