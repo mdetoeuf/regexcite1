@@ -80,5 +80,5 @@ usethis::create_from_github(
   "git@github.com:mdetoeuf/regexcite1.git",
   destdir = "~/path/to/where/you/want/the/local/repo/"
 )
-
+ #
 
