@@ -66,3 +66,11 @@ rename_files("strsplit1", "str_split_one")
 #> ✔ Moving 'R/strsplit1.R' to 'R/str_split_one.R'.
 #> ✔ Moving 'tests/testthat/test-strsplit1.R' to
 #>   'tests/testthat/test-str_split_one.R'.
+#>
+
+load_all()
+#> ℹ Loading regexcite
+str_split_one("a, b, c", pattern = ", ")
+#> [1] "a" "b" "c"
+
+use_github()
