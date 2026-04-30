@@ -73,4 +73,6 @@ load_all()
 str_split_one("a, b, c", pattern = ", ")
 #> [1] "a" "b" "c"
 
-use_github()
+# get it on github
+use_github() # if not working, then go to https://happygitwithr.com/existing-github-last.html
+
